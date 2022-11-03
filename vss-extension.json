@@ -1,0 +1,52 @@
+{
+    "manifestVersion": 1,
+    "id": "green-location",
+    "name": "Green Location",
+    "version": "0.1.4",
+    "publisher": "NikhilSamant",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "description": "Helps you finding the less carbon emitting location",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "tags": [
+        "carbon aware"
+    ],
+    "branding": {
+        "color": "#224b73",
+        "theme": "dark"
+    },
+    "icons": {
+        "default": "images/extension-icon.png"
+    },
+    "files": [
+        {
+            "path": "images/extension-icon.png",
+            "addressable": true
+        },
+        {
+            "path": "green-location"
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "readme.md"
+        }
+    },
+    "contributions": [
+        {
+            "id": "custom-build-release-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "green-location"
+            }
+        }
+    ]
+}
