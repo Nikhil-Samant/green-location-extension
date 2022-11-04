@@ -2,8 +2,9 @@
     "manifestVersion": 1,
     "id": "green-location",
     "name": "Green Location",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "publisher": "NikhilSamant",
+    "public": true,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -34,7 +35,7 @@
     ],
     "content": {
         "details": {
-            "path": "readme.md"
+            "path": "overview.md"
         }
     },
     "contributions": [
