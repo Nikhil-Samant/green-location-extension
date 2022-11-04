@@ -10,7 +10,7 @@ Run `npm run build` to build all the Tyscript files.
 
 ## Test the extension locally
 
-Run `npm run start` to test the extension locally. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `npm run start` to test the extension locally.
 
 ## Running unit tests
 
@@ -18,4 +18,4 @@ Run `npm run test` to execute the unit tests via [Mocha](https://mochajs.org/).
 
 ## Further help
 
-To get more help on the Azure DevOps documentation. Check out the documentation [Develop a Web Extension](https://learn.microsoft.com/en-us/azure/devops/extend/develop/add-build-task?view=azure-devops).
+To get more help on building a new extension, check out the Azure DevOps documentation [Develop a Web Extension](https://learn.microsoft.com/en-us/azure/devops/extend/develop/add-build-task?view=azure-devops).
